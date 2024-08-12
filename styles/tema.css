@@ -1,0 +1,14 @@
+.tema {
+    padding: 2em 0.75em;
+}
+
+.tema__titulo {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: var(--fonte-tema);
+}
+
+.tema__texto {
+    text-align: center;
+}

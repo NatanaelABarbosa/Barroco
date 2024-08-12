@@ -1,0 +1,27 @@
+.cabecario {
+    padding: 2em 0.25em;
+}
+
+.cabecario__titulo {
+    text-align: center;
+    color: var(--branco);
+    margin-bottom: 4%;
+}
+
+.cabecario__nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cabecario__link {
+    width: 60px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color: var(--branco);
+    font-size: 0.8125rem;
+}
+
+.cabecario__img {
+    width: 32px;
+}
