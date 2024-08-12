@@ -1,0 +1,18 @@
+.sobre__titulo,
+.resumo__titulo {
+    font-family: var(--fonte-secundaria);
+    text-decoration: underline;
+}
+
+.sobre__titulo {
+    margin-bottom: 0.25em;
+}
+
+.sobre__texto {
+    margin-bottom: 2em;
+}
+
+.resumo__lista-item {
+    margin-left: 1em;
+    padding: 0.5em 0;
+}

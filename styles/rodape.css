@@ -1,0 +1,17 @@
+.rodape {
+    background-color: var(--vermelho-forte);
+    padding: 1em;
+}
+
+.rodape__texto, .texto-forte-rodape {
+    color: var(--branco);
+    font-weight: 500;
+}
+
+.texto-forte-rodape {
+    font-weight: bold;
+}
+
+hr {
+    margin-top: 2.5em;
+}

@@ -1,5 +1,7 @@
 @import url(cabecario.css);
 @import url(tema.css);
+@import url(resumo.css);
+@import url(rodape.css);
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@300;400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
@@ -10,18 +12,27 @@
 }
 
 :root {
-    --branco: #F6F6F6;
-    --preto: #1A1A1A;
+    --branco: #EEEEEE;
+    --preto: #151515;
     --preto-escuro: #000000;
     --marrom: #6F4E37;
+    --vermelho-forte: #A91D3A;
 
     --fonte-principal: "Roboto", sans-serif;
-    --fonte-tema: "DM Serif Text", serif;
+    --fonte-secundaria: "DM Serif Text", serif;
+}
+
+.background {
+    background: url(../img/igreja-barroca.jpg) no-repeat;
+    background-size: 150% 100%;
+    background-position: center;
+    padding-bottom: 125px;
 }
 
 body {
-    background: url(../img/igreja-barroca.jpg) no-repeat;
-    background-size: 240% 250%;
     background-color: var(--preto);
-    background-position: center;
+}
+
+.conteudo {
+    padding: 1em;
 }
