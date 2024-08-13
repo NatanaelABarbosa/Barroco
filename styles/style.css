@@ -2,6 +2,7 @@
 @import url(tema.css);
 @import url(resumo.css);
 @import url(rodape.css);
+@import url(definicao.css);
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@300;400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
@@ -17,6 +18,7 @@
     --preto-escuro: #000000;
     --marrom: #6F4E37;
     --vermelho-forte: #A91D3A;
+    --azul: #6EACDA;
 
     --fonte-principal: "Roboto", sans-serif;
     --fonte-secundaria: "DM Serif Text", serif;

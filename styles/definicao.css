@@ -1,0 +1,24 @@
+.definicao {
+    padding: 1em;
+
+}
+
+.definicao__titulo {
+    padding-bottom: 0.5em;
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.definicao__pergunta {
+    padding-top: 1.25em;
+}
+
+.definicao__texto {
+    padding: 0.25em 0;
+}
+
+.definicao__link {
+    color: var(--azul);
+}
