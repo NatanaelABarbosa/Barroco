@@ -1,0 +1,28 @@
+.autores {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.autores__titulo {
+    font-size: 1.25rem;
+    padding-bottom: 0.5rem;
+}
+
+.autores__texto {
+    width: 230px;
+    text-align: center;
+}
+
+.autores__conteudo {
+    padding-bottom: 0.5rem;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.autores__img {
+    width: 96px;
+    height: 96px;
+}
