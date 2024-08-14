@@ -5,6 +5,13 @@
     gap: 2em;
 }
 
+.autores__titulo-principal {
+    font-size: 1.75em;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
 .autores__titulo {
     font-size: 1.25rem;
     padding-bottom: 0.5rem;
