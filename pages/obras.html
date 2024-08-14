@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Barroco</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
@@ -23,8 +24,40 @@
             <p class="tema__texto">Trabalho sobre a escola literária barroca</p>
         </section>
     </div>
-    <main>
+    <main class="carrossel">
+        <!-- Slider main container -->
+        <h2 class="carrossel__titulo">Obras Barrocas</h2>
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="../img/postilhao-de-apolo.jpg" alt="Imagem da obra Postilhão de Apolo de Eusébio de Mato e Guerra" width="340" height="160">Obra de Eusébio de Matos e Guerra, 'Postilhão de Apolo'.</div>
+            <div class="swiper-slide"><img src="../img/Jesus.jpg" alt="Imagem da obra Jesus carregando a cruz da obra de Aleijadinho" width="340" height="160">Jesus carrega a cruz, uma obra-prima de Aleijadinho.</div>
+            <div class="swiper-slide"><img src="../img/escultura-daniel.jpg" alt="Imagem da obra Profeta Daniel, de Aleijadinho" width="340" height="160">Profeta Daniel, por Aleijadinho.</div>
 
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+        
+        <div class="divisor"></div>
+
+        <!-- Slider main container -->
+        <h2 class="carrossel__titulo">Igrejas Barrocas</h2>
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="../img/igreja-1.jpg" alt="Imagem da igreja da Nossa Senhora do Rosário" width="340" height="160">Igreja de Nossa Senhora do Rosário dos Homens Pretos</div>
+            <div class="swiper-slide"><img src="../img/igreja-2.jpg" alt="Imagem da igreja de São Francisco de Assis" width="340" height="160">Igreja de São Francisco de Assis, Ouro Preto.</div>
+            <div class="swiper-slide"><img src="../img/igreja-3.jpg" alt="Imagem da igreja matriz de Nossa Senhora do Pilar" width="340" height="160">Igreja Matriz de Nossa Senhora do Pilar</div>
+
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="divisor-2"></div>
     </main>
     
     <hr/>
@@ -32,5 +65,18 @@
     <footer class="rodape">
         <p class="rodape__texto"><strong class="texto-forte-rodape">Trabalho desenvolvido por:</strong> Antonielle, Arthur, Fannich, Gabrielle, Hiago, Isalayla, Leticia, Ligia, Maria Fernanda, Matheus, Natanael, Rebeca, Silas.</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script> 
+        const swiper = new Swiper('.swiper', {
+            loop: true,
+            slidesPerView: 2,
+            spaceBetween: 20,
+
+            pagination: {
+                el: ".swiper-pagination",
+                type: 'bullets',
+            }
+        });
+    </script>
 </body>
 </html>

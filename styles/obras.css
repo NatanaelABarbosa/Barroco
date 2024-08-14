@@ -1,0 +1,31 @@
+.carrossel {
+    padding: 1em;
+}
+
+.carrossel__titulo {
+    text-align: center;
+    padding-bottom: 0.5em;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.swiper-slide {
+    text-align: center;
+}
+
+.swiper-slide img {
+    width: 100%;
+    border-radius: 0.75em;
+}
+
+.swiper-pagination {
+    position: initial;
+}
+
+.divisor {
+    padding: 1.5em;
+}
+
+.divisor-2 {
+    padding: 0.5em;
+}
